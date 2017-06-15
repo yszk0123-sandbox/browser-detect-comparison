@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "browser-detect-comparison",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/yszk0123/browser-detect-comparison.git",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "scripts/build browserslist caniuse-lite is-browser-supported"
+  },
+  "dependencies": {
+    "browserslist": "^2.1.5",
+    "caniuse-lite": "^1.0.30000684",
+    "is-browser-supported": "^1.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "uglify-js": "^3.0.17"
+  }
+}
